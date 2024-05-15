@@ -4,22 +4,17 @@ let res = (await axios.get(`https://raw.githubusercontent.com/socona12/TheMystic
 let haha = await res[Math.floor(res.length * Math.random())]    
 conn.sendFile(m.chat, haha, 'error.jpg', `
 
-*『 ️اليك قائمه بسورس البوت البوت 』*
+*∞┇━━━ •『☘️』• ━━━┇∞*
+*〖 https://wa.me/+201153573240 〗*
 
-*『 ️واتساب 』*
 
-*⊱≼ https://wa.me/+22247072475 ≽⊰⊹*
+*〖https://whatsapp.com/channel/0029VaZThPH2UPBBFmyXPf1o 〗*
 
-*『 ️منصاتي 』*
+*〖https://chat.whatsapp.com/DpPhnhTY50z2pl6F1N9XBP 〗*
+*〖https://chat.whatsapp.com/G94gOeTIZy03Ulsu05IkfX 〗*
 
-*⊱≼ غير متوفر ≽⊰⊹*
-
-*『 ️جروب واتساب 』*
-
-*⊱≼ SOON ≽⊰⊹*
-
-*◉═══ • ❁ 👑 ❁ • ═══◉* `, m)
+*∞┇━━━ •『☘️』• ━━━┇∞* `, m)
 }
-handler.command = handler.help = ['دعم','الدعم']
+handler.command = handler.help = ['سورس','الدعم']
 handler.tags = ['kaneki']
 export default handler
